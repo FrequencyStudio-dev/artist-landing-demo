@@ -12,9 +12,11 @@ export default function FeaturedRelease() {
         <div className="grid gap-12 lg:grid-cols-[1fr_0.9fr] lg:items-center lg:gap-20">
           <div className="aspect-square bg-surface-high">
             <div className="flex h-full items-center justify-center">
-              <span className="font-sans text-xs uppercase tracking-[0.2em] text-muted">
-                Portada del lanzamiento
-              </span>
+              <img
+                src="featured-release/luz-artificial.png"
+                alt="Luz Artificial"
+                className="h-full w-full object-cover"
+              />
             </div>
           </div>
 

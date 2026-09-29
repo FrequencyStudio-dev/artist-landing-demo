@@ -2,24 +2,12 @@ export default function ArtistIntro() {
   return (
     <section className="border-t border-white/10 px-6 py-24 md:px-8 md:py-32">
       <div className="mx-auto grid max-w-7xl gap-12 md:grid-cols-[0.35fr_0.65fr] md:gap-16">
-        <div className="space-y-6">
-          <div>
-            <p className="font-sans text-[10px] uppercase tracking-[0.2em] text-muted">
-              Ciudad
-            </p>
-            <p className="mt-2 font-sans text-sm">
-               Montevideo, Uruguay
-            </p>
-          </div>
-
-          <div>
-            <p className="font-sans text-[10px] uppercase tracking-[0.2em] text-muted">
-              Género
-            </p>
-            <p className="mt-2 font-sans text-sm">
-              Pop · Electrónica
-            </p>
-          </div>
+        <div className="aspect-[4/5] overflow-hidden bg-surface-high">
+          <img
+            src="/about/about.png"
+            alt="Lucía Varela"
+            className="h-full w-full object-cover"
+          />
         </div>
 
         <div>
@@ -32,7 +20,6 @@ export default function ArtistIntro() {
             íntima y producción contemporánea. Su propuesta explora melodías envolventes, texturas electrónicas 
             y una identidad sonora propia.
           </p>
-
         </div>
       </div>
     </section>

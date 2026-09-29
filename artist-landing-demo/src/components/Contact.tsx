@@ -13,7 +13,7 @@ export default function Contact() {
           <h2 className="font-heading text-5xl font-bold uppercase leading-[0.9] tracking-[-0.04em] md:text-7xl">
             ¿Querés trabajar
             <br />
-            Lucía?
+            con Lucía?
           </h2>
 
           <p className="mt-8 max-w-xl font-sans text-base leading-relaxed text-muted md:text-lg">

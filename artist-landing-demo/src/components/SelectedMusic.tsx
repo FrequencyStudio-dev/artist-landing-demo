@@ -3,16 +3,19 @@ const releases = [
     title: "Freceuncia",
     type: "EP",
     year: "2022",
+    cover: "/music/frecuencia.png",
   },
   {
     title: "Señales",
     type: "Single",
     year: "2023",
+    cover: "/music/señales.jpg",
   },
   {
     title: "Luz Artificial",
     type: "LP",
     year: "2025",
+    cover: "/featured-release/luz-artificial.png",
   },
 ];
 
@@ -36,14 +39,13 @@ export default function SelectedMusic() {
         <div className="grid gap-8 md:grid-cols-3">
           {releases.map((release) => (
             <article key={release.title}>
-              <div className="aspect-square bg-surface-high">
-                <div className="flex h-full items-center justify-center">
-                  <span className="font-sans text-[10px] uppercase tracking-[0.2em] text-muted">
-                    Portada
-                  </span>
+               <div className="aspect-square overflow-hidden bg-surface-high">
+                  <img
+                    src={release.cover}
+                    alt={`Portada de ${release.title}`}
+                    className="h-full w-full object-cover"
+                  />
                 </div>
-              </div>
-
               <div className="mt-5 flex items-start justify-between gap-4">
                 <div>
                   <h3 className="font-heading text-xl font-bold uppercase">

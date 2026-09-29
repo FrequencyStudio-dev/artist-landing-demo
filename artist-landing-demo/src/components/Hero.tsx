@@ -30,9 +30,11 @@ export default function Hero() {
 
         <div className="relative aspect-[4/5] overflow-hidden bg-surface-high lg:aspect-[4/5]">
           <div className="absolute inset-0 flex items-center justify-center">
-            <span className="font-sans text-xs uppercase tracking-[0.2em] text-muted">
-              Imagen protagonista
-            </span>
+            <img
+              src="/hero/hero.png"
+              alt="Lucía Varela"
+              className="h-full w-full object-cover"
+            />
           </div>
         </div>
       </div>
